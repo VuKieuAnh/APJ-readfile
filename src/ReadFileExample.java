@@ -13,7 +13,7 @@ public class ReadFileExample {
 
         int c = fileInputStream.read();
         while (c != -1){
-            System.out.println(c);
+            System.out.println((char) c);
             c = fileInputStream.read();
         }
     }
